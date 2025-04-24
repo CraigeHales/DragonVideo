@@ -1,6 +1,7 @@
 Using FFMpeg with pipes for the input audio and video. Python code
 generates the data on-the-fly. 
-https://github.com/user-attachments/assets/9425d553-1e13-4eac-b918-aa550571953d
+<video src='https://github.com/user-attachments/assets/9425d553-1e13-4eac-b918-aa550571953d'/>
+
 The python code used three threads for image generation, audio generation,
 and running the encoder. 
 
