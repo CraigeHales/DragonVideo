@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "/home/c/Documents/DragonVideo/.venv/bin/python3.10",
+            "program": "begin.py", //"${file}",
+            //"cwd": "${fileDirname}", // https://stackoverflow.com/a/55072246  https://stackoverflow.com/questions/38623138/how-to-set-the-working-directory-for-debugging-a-python-program-in-vs-code
+            "console": "integratedTerminal"
+        }
+    ]
+}
