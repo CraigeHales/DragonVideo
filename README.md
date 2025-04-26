@@ -42,5 +42,10 @@ Only two are actually used. There is a small nest of semi-random generators and 
 Stephen Mugglin (thanks! the maps are really useful for the barely musically inclined like me!)
 https://mugglinworks.com/chordmaps/
 
+After all that, the youtube compression is too heavy-handed; sometimes it looks almost OK but often it
+is largely blurred.
+
+[<img src="https://img.youtube.com/vi/ICRXdIXZaPM/maxresdefault.jpg" width="50%">](https://youtu.be/ICRXdIXZaPM)
+
 
 
