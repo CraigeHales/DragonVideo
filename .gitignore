@@ -5,6 +5,7 @@ output.png
 begin.py.lprof
 test.stats
 *.bak
+scratchpad.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

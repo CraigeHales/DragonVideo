@@ -37,6 +37,10 @@ def getNumTransitionFrames():
 def getPictureGenerator():
     mypath = "/home/c/Desktop/images/"
     onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f)) and f.endswith(".png")]
+
+    #onlyfiles.sort()
+    #onlyfiles = onlyfiles[-3:]
+    
     logger.info(f"n files={len(onlyfiles)}")
     keyfiles = []
     global gCurpic
@@ -414,9 +418,10 @@ def getPictureGenerator():
                 for k in range(gNumStaticFrames-1):
                     yield im  # gNumStaticFrames static frames
             yield im  # gNumTransitionFrames transition frames
-            if iFile == len(keyfiles)-1: # the end, fade out
-                for k in range(255,0,-1):
-                    yield round(math.sqrt(k)*im/math.sqrt(255)) # 
+            if iFile == len(keyfiles)-1 and t==gNumTransitionFrames: # the end, fade out
+                for k in range(256,0,-1):
+                    print(f"k={k}")
+                    yield (((k-1)/(256))*im).astype("uint8") # 
 
         # bookkeeping...
         picOld = picNew  #

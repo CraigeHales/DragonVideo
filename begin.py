@@ -30,7 +30,7 @@ audGen = DragonAudio.getAudioGenerator(end=55*60*100) # duration: 55 minutes of 
 
 xImg = 1920
 yImg = 1080
-outputfile="/home/c/Desktop/Dragons.mp4" # must have .mp4 extension, maybe needs full path
+outputfile="/home/c/Desktop/DragonsRollAudio.mp4" # must have .mp4 extension, maybe needs full path
 logger.debug(F"xImg={xImg} yImg={yImg}")
 # start the threads. they block, momentarily, as the pipes are connected
 # because the pipe must have two endpoints (regardless of direction r/w)

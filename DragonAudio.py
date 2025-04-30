@@ -127,6 +127,11 @@ def getAudioGenerator(end):
                     result = np.asarray(r)*1
                 else:
                     result += np.asarray(r)
+        if result is not None:
+            if i < 200: # fade in
+                result = result * (i/200)
+            elif  end - i < 2000: # fade out
+                result = result * ((end-i)/2000)
         yield result
 
 
