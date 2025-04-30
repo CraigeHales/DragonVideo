@@ -45,7 +45,4 @@ https://mugglinworks.com/chordmaps/
 After all that, the youtube compression is too heavy-handed; sometimes it looks almost OK but often it
 is largely blurred.
 
-[<img src="https://img.youtube.com/vi/ICRXdIXZaPM/maxresdefault.jpg" width="50%">](https://youtu.be/ICRXdIXZaPM)
-
-
-
+[<img src="https://img.youtube.com/vi/3DK0RUCdaFU/maxresdefault.jpg" width="50%">](https://youtu.be/3DK0RUCdaFU)
