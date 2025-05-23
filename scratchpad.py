@@ -1,5 +1,5 @@
 """
-not real code yet. staging ideas for random music, circular buffers,...
+not real code yet. staging ideas for random music, circular buffers,... test///
 the sample sound files have 8-second long notes, ascending from C0, C0#, ...C7...
 """
 
